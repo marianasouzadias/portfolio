@@ -1,0 +1,28 @@
+.main{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: flex-start;
+    padding: 20px;
+    background-color:  #c4b2f4;
+    border: 1px solid #ddd;
+   
+    h1{
+        margin: 0;
+        padding: 0; 
+          color: #ffff;
+    }
+    p{
+        text-align: left;
+        font-size: 14px;
+        margin: 10px;
+        line-height: 1.7;
+        max-width: 800px;
+        color: #ffff;
+
+        span{
+        color:  #8265d1;
+        font-weight: bold;
+    }
+}
+    }

@@ -1,0 +1,25 @@
+.main {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  padding: 20px;
+  background-color: #c4b2f4;
+}
+.main h1 {
+  margin: 0;
+  padding: 0;
+  color: white;
+}
+.main p {
+  text-align: left;
+  font-size: 14px;
+  margin: 10px;
+  line-height: 1.7;
+  max-width: 800px;
+  color: white;
+}
+.main p span {
+  color: #8265d1;
+  font-weight: bold;
+}/*# sourceMappingURL=AboutStyled.css.map */

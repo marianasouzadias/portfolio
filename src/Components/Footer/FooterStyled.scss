@@ -1,0 +1,45 @@
+.container {
+    padding: 20px 0;
+    text-align: center;
+  
+    .contact-info {
+      ul {
+        list-style: none;
+        padding: 0;
+        display: flex;
+        justify-content: center;
+        color:   #c5a7e0;
+        gap: 150px;
+  
+        li {
+          display: flex;
+          align-items: center;
+  
+          figure {
+            display: flex;
+            flex-direction: column;
+            align-items: center;
+  
+            img {
+              width: 40px; 
+              height: auto;
+              margin-bottom: 10px;
+            }
+  
+            figcaption {
+              font-size: 14px;
+              a {
+                color:   #c5a7e0;
+                text-decoration: none;
+  
+                &:hover {
+                  text-decoration: underline;
+                }
+              }
+            }
+          }
+        }
+      }
+    }
+  }
+  
