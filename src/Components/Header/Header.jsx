@@ -1,5 +1,5 @@
 import { Link } from 'react-scroll';
-import "./HeaderStyled.scss";
+import "./HeaderStyle.scss";
 
 const Header = () => {
     return (

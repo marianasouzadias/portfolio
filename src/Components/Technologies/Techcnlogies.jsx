@@ -7,7 +7,7 @@ import vite from "../../assets/img/Techcnlogies/vite.png";
 import node from "../../assets/img/Techcnlogies/node.png";
 import figma from "../../assets/img/Techcnlogies/figma.png";
 
-import "./TechcnlogiesStyled.scss";
+import "./TechcnlogiesStyle.scss";
 
 const Techcnlogies = () => {
   const technologies = [

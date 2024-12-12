@@ -1,13 +1,13 @@
 
-import "./AboutStyled.scss";
+import "./AboutStyle.scss";
 
 const About = () => {
   return (
     <main id="sobre" className="main">
-      <h1>Sobre mim: </h1>
+      <h2>Sobre mim: </h2>
       <p>
         profissional formada em <span>Marketing</span> e atualmente cursando
-        Análise e Desenvolvimento de Sistemas. Minha jornada no mundo da
+       <span> Análise e Desenvolvimento de  Sistemas.</span> Minha jornada no mundo da
         tecnologia começou com uma curiosidade constante sobre como as coisas
         funcionam, o que me levou a migrar para uma área de desenvolvimento. Com
         experiência em várias tecnologias com

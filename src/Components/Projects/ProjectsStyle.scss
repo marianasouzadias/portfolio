@@ -5,9 +5,13 @@
 }
 .projects{
     background-color: #c4b2f4;
-    color: #fff;
 
-
+    .sub_title{
+       color: #fff;
+      margin-top: 50px;
+      margin-left: 20px;
+      }
+      
     .projects__list{
     display: flex;
     align-items: center;
@@ -16,8 +20,8 @@
   
   .projects__item {
     text-decoration: none;
-    width: 250px;
-    height: 400px;
+    width: 350px;
+    height: 500px;
     padding: 30px;
     margin-top: 50px;
     margin-bottom: 100px;
@@ -34,21 +38,22 @@
       box-shadow: 0 6px 10px rgba(0, 0, 0, 0.15);
     }
   }
+
   
   .projects__image {
-    width: 200px;
+    width: 250px;
     height: 150px;
     border-radius: 4px;
     margin-bottom: 16px;
   }
   
   .projects__item h3 {
-    font-size: 1.25rem;
-    margin-bottom: 8px;
+    font-size: 1.80rem;
+    margin-bottom: 15px;
   }
   
   .projects__item p {
-    font-size: 1rem;
+    font-size: 1.5rem;
     color:  #fff
   }
 }

@@ -1,0 +1,27 @@
+#tecnologias {
+  text-align: center;
+  padding: 20px;
+}
+#tecnologias .tech-grid {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  margin-top: 50px;
+  margin-bottom: 50px;
+  gap: 100px;
+}
+#tecnologias .tech-grid .tech-item {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  max-width: 120px;
+}
+#tecnologias .tech-grid .tech-item .image {
+  width: 100px;
+  height: auto;
+  margin-bottom: 10px;
+}
+#tecnologias .tech-grid .tech-item figcaption {
+  font-size: 0.9rem;
+  color: #555;
+}/*# sourceMappingURL=TechcnlogiesStyle.css.map */

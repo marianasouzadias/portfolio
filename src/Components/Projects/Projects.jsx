@@ -1,10 +1,11 @@
 import jogoMemoria from '../../assets/img/Projects/jogoMemoria.jpg'
 import Starbucks from '../../assets/img/Projects/Starbucks.jpg'
 import calculadora from '../../assets/img/Projects/calculadora.jpg'
-import "./ProjectsStyled.scss"
+import "./ProjectsStyle.scss"
 
 const projects = [
     {
+      id: 'starbucks', 
         title: 'Starbucks',
         description: 'Protótipo do Figma recriado com React e Sas, trazendo uma landing page responsiva e fiel ao design original, com foco em interfaces modernas.',
         link: 'https://starbucks-m5r9itrva-marianas-projects-24de8f38.vercel.app/',
@@ -12,6 +13,7 @@ const projects = [
     },
 
     {
+      id: 'jogo da memoria', 
         title: "Jogo da memoria",
         description: "Criado do zero com React e Sass, este jogo combina nostalgia de Os padrinhos mágicos com a lógica desafiadora, sendo uma ideia totalmente autoral.",
         link: "https://jogo-da-memoria-zeta-ebon.vercel.app/",
@@ -19,6 +21,7 @@ const projects = [
     },
 
     {
+      id: 'calculadora', 
       title: "Calculadora",
       description: "Aplicação moderna e funcional, com tema claro/ escuro, cálculos avançados e design elegante, ideal para diferentes necessidades matemáticas.",
       link: "https://jogo-da-memoria-zeta-ebon.vercel.app/",
@@ -26,6 +29,7 @@ const projects = [
   },
 
   {
+    id: 'sistema de login', 
     title: "Sitema de login",
     description: "Página de login funcional com validação de credenciais, destacando boas práticas em autenficação front-end.",
     
@@ -37,9 +41,9 @@ const Projects = () => {
     <section className="projects">
       <h2 className='sub_title'>Meus Projetos</h2>
       <div className="projects__list">
-        {projects.map((project, index) => (
+        {projects.map((project) => (
           <a
-            key={index}
+            key={project.id}
             href={project.link}
             target="_blank"
             rel="noopener noreferrer"
