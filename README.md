@@ -19,7 +19,7 @@ Bem-vindo ao meu portfólio! Este é um projeto onde apresento minhas habilidade
 
 ## 📂 Como visualizar  
 
-Você pode acessar meu portfólio [aqui](#) (portfólio-livid-eight-21.vercel.app).  
+Você pode acessar meu portfólio [aqui](#) (https://portfolio-livid-eight-21.vercel.app/).  
 
 Se quiser rodar localmente:  
 
