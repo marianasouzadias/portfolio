@@ -1,3 +1,11 @@
+
+
+
+
+
+![ProjectsStyle scss - portifolio - Visual Studio Code 12_03_2025 21_56_20](https://github.com/user-attachments/assets/a823daca-ea98-4dfd-a232-8d5008f1f587)
+
+
 # 🌐 Meu Portfólio  
 
 Bem-vindo ao meu portfólio! Este é um projeto onde apresento minhas habilidades, meus projetos e formas de contato de maneira interativa e dinâmica.  
