@@ -1,5 +1,5 @@
 .container {
-  padding: 20px 0;
+  padding: 20px;
   text-align: center;
 }
 .container .contact-info ul {
@@ -8,7 +8,7 @@
   display: flex;
   justify-content: center;
   color: #c5a7e0;
-  gap: 150px;
+  gap: 10vw;
 }
 .container .contact-info ul li {
   display: flex;
@@ -21,7 +21,6 @@
 }
 .container .contact-info ul li figure img {
   width: 70px;
-  height: auto;
   margin-bottom: 10px;
 }
 .container .contact-info ul li figure figcaption {
@@ -33,4 +32,14 @@
 }
 .container .contact-info ul li figure figcaption a:hover {
   text-decoration: underline;
+}
+
+@media (max-width: 800px) {
+  .container .contact-info ul li figure img {
+    width: 40px;
+    margin-bottom: 5px;
+  }
+  .container .contact-info ul li figure figcaption {
+    font-size: 10px;
+  }
 }/*# sourceMappingURL=FooterStyle.css.map */

@@ -1,32 +1,64 @@
+import javascript from "../../assets/img/Techcnlogies/javascript.png";
+import html from "../../assets/img/Techcnlogies/html.png";
+import css from "../../assets/img/Techcnlogies/css.png";
+import sass from "../../assets/img/Techcnlogies/sass.png";
+import react from "../../assets/img/Techcnlogies/react.png";
+import vite from "../../assets/img/Techcnlogies/vite.png";
+import node from "../../assets/img/Techcnlogies/node.png";
+import figma from "../../assets/img/Techcnlogies/figma.png";
 
 import "./AboutStyle.scss";
+import "../Technologies/TechnologiesStyle.scss";
 
 const About = () => {
+  const technologies = [
+    { logo: javascript },
+    { logo: html },
+    { logo: css },
+    { logo: sass },
+    { logo: react },
+    { logo: vite },
+    { logo: node },
+    { logo: figma },
+  ];
+
   return (
     <main id="sobre" className="main">
       <h2>Sobre mim: </h2>
-      <p>
-        profissional formada em <span>Marketing</span> e atualmente cursando
-       <span> Análise e Desenvolvimento de  Sistemas.</span> Minha jornada no mundo da
-        tecnologia começou com uma curiosidade constante sobre como as coisas
-        funcionam, o que me levou a migrar para uma área de desenvolvimento. Com
-        experiência em várias tecnologias com
-        <span>JavaScript , HTML , CSS , Git ,</span> e ferramentas como
-        <span>Vite , Sass , Styled Components e Figma,</span> eu busco sempre
-        aprimorar minhas habilidades para criar soluções eficientes e práticas.
-        Meu foco é no desenvolvimento Front-end, onde tenho trabalhado com
-        frameworks modernos como <span>React e Next.js </span>, sempre mantendo
-        um olhar atento à experiência do usuário e à otimização do código.
-        Atualmente, busco combinar minha experiência com <span>Marketing</span>
-        com minhas habilidades em tecnologia para construir produtos digitais
-        que não só funcionam bem, mas também proporcionam uma experiência
-        incrível ao usuário. Acredito que a interseção entre design, usabilidade
-        e desenvolvimento é onde a mágica acontece. Estou constantemente
-        aprendendo e aplicando novos conceitos, e adoro colaborar em projetos
-        desafiadores. Se você está buscando um profissional criativo, dedicado e
-        com uma visão estratégica para desenvolvimento de software, adoraria
-        conversar sobre como posso agregar valor ao seu tempo ou projeto.
-      </p>
+      <div className="about-container">
+        <section>
+          <p>
+            <span>Formada</span>em <span>Marketing</span> e atualmente estudante
+            de <span>Análise de Desenvolvimento de Sistemas. </span>Minha
+            trajetória tem duas áreas que se complementam: O{" "}
+            <span>Desenvolvimento</span> e a<span>Estratégia de Produto.</span>
+            Acredito que programar vai muito além de escrever código é entender
+            a <span>Experiência do usuário</span>, o impacto do{" "}
+            <span>design</span> e a<span>funcionalidade do produto</span> como
+            um todo. Busco minha<span> primeira oportunidade</span>
+            na área, trazendo uma visão que combina{" "}
+            <span> Desenvolvimento</span>
+            com <span> Análise de mercado.</span> Tenho experiência com{" "}
+            <span>JavaScript</span>, <span>React</span>, <span>APIs REST</span>, entre outras
+            tecnologias, e sigo aprimorando meus conhecimentos em
+            <span>MySql</span>,<span> Prisma</span> e <span>Docker</span>.🚀
+          </p>
+        </section>
+
+        <section id="tecnologias">
+          <div className="tech-grid">
+            {technologies.map((tech, index) => (
+              <figure key={index} className="tech-item">
+                <img
+                  src={tech.logo}
+                  alt="Logo da tecnologia"
+                  className="image"
+                />
+              </figure>
+            ))}
+          </div>
+        </section>
+      </div>
     </main>
   );
 };

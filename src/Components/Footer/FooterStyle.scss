@@ -1,5 +1,5 @@
 .container {
-    padding: 20px 0;
+    padding: 20px;
     text-align: center;
   
     .contact-info {
@@ -9,7 +9,7 @@
         display: flex;
         justify-content: center;
         color:   #c5a7e0;
-        gap: 150px;
+        gap: 10vw;
   
         li {
           display: flex;
@@ -19,18 +19,20 @@
             display: flex;
             flex-direction: column;
             align-items: center;
+            
   
             img {
-              width: 70px; 
-              height: auto;
+              width: 70px;
               margin-bottom: 10px;
             }
   
             figcaption {
               font-size: 20px;
+              
               a {
                 color:   #c5a7e0;
                 text-decoration: none;
+              
   
                 &:hover {
                   text-decoration: underline;
@@ -42,4 +44,16 @@
       }
     }
   }
+
+  @media (max-width: 800px) {
+    .container .contact-info ul li figure img {
+      width: 40px;
+      margin-bottom: 5px;
+    }
+    .container .contact-info ul li figure figcaption {
+      font-size: 10px;
+    }
+  }
+  
+  
   

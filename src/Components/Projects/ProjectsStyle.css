@@ -49,4 +49,33 @@
 .projects .projects__list .projects__item p {
   font-size: 1.5rem;
   color: #fff;
+}
+
+@media (max-width: 800px) {
+  .projects .projects__list {
+    display: flex;
+    overflow-x: auto;
+    scroll-snap-type: x mandatory;
+    gap: 10px;
+    padding: 10px;
+  }
+  .projects__item {
+    flex: 0 0 auto;
+    scroll-snap-align: center;
+    max-width: 250px;
+    margin: 10px;
+  }
+  .projects__image {
+    width: 100% !important;
+    height: auto;
+    margin-bottom: 10px;
+  }
+  .projects__item h3 {
+    font-size: 25px !important;
+    margin-bottom: 10px;
+    text-align: center;
+  }
+  .projects__item p {
+    font-size: 16px !important;
+  }
 }/*# sourceMappingURL=ProjectsStyle.css.map */
